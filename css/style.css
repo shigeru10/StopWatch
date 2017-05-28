@@ -10,3 +10,25 @@ body {
   margin: 40px auto;
   text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
 }
+
+.btn {
+  display: inline-block;
+  width: 100px;
+  padding: 7px;
+  border-radius: 5px;
+  box-shadow: 0 4px 0 #0088cc;
+  color: #fff;
+  background: #00aaff;
+  cursor: pointer;
+}
+
+.btn.active {
+  opacity: 1;
+}
+.btn.inactive {
+  opacity: .5;
+}
+
+.btn + .btn {
+  margin-left: 10px;
+}
